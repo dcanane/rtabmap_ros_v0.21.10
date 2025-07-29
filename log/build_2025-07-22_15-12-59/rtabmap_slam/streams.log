@@ -1,0 +1,142 @@
+[0.013s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_slam -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.437s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.477s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.481s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.569s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.596s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.625s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.628s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.648s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.698s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.700s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.715s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.717s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.724s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.742s] -- Looking for pthread.h
+[0.807s] -- Looking for pthread.h - found
+[0.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.871s] -- Found Threads: TRUE  
+[0.902s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.917s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.924s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.928s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.982s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.995s] -- Found rtabmap_msgs: 0.21.10 (/home/diogo/rtabmap_ros_ws/install/share/rtabmap_msgs/cmake)
+[1.012s] -- Found rtabmap_util: 0.21.10 (/home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake)
+[1.116s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.117s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.117s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.154s] -- Checking for module 'eigen3'
+[1.167s] --   Found eigen3, version 3.4.0
+[1.200s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.201s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.235s] -- Checking for module 'flann'
+[1.250s] --   Found flann, version 1.9.1
+[1.289s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.289s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.071s] -- Checking for module 'libusb-1.0'
+[2.084s] --   Found libusb-1.0, version 1.0.25
+[2.120s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.121s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.175s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.289s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.294s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.299s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.408s] -- Found Qhull version 8.0.2
+[2.519s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.630s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.630s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.631s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.632s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.632s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.633s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.633s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.634s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.634s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.635s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.636s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.637s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.638s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.638s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.639s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.640s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.641s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.641s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.642s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.643s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.643s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.644s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.644s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.645s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.645s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.691s] -- Found rtabmap_sync: 0.21.10 (/home/diogo/rtabmap_ros_ws/install/share/rtabmap_sync/cmake)
+[2.715s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)
+[2.727s] -- WITH apriltag_msgs
+[2.727s] -- WITH nav2_msgs
+[2.790s] -- Configuring done
+[2.880s] -- Generating done
+[2.898s] -- Build files have been written to: /home/diogo/rtabmap_ros_ws/build/rtabmap_slam
+[2.925s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_slam -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[2.927s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_slam -- -j16 -l16
+[2.976s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_slam_plugins.dir/src/CoreWrapper.cpp.o[0m
+[60.864s] [ 50%] [32m[1mLinking CXX shared library librtabmap_slam_plugins.so[0m
+[63.052s] [ 50%] Built target rtabmap_slam_plugins
+[63.072s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_node.dir/src/CoreNode.cpp.o[0m
+[72.827s] [100%] [32m[1mLinking CXX executable rtabmap[0m
+[74.276s] [100%] Built target rtabmap_node
+[74.286s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_slam -- -j16 -l16
+[74.287s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_slam': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_slam
+[74.294s] -- Install configuration: "MinSizeRel"
+[74.294s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/environment/library_path.sh
+[74.294s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/environment/library_path.dsv
+[74.294s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/librtabmap_slam_plugins.so
+[74.306s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/librtabmap_slam_plugins.so" to ""
+[74.306s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_slam/rtabmap
+[74.307s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_slam/rtabmap" to ""
+[74.307s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/include
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_slam
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_slam/CoreWrapper.h
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_slam/visibility.h
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/package_run_dependencies/rtabmap_slam
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/parent_prefix_path/rtabmap_slam
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/environment/ament_prefix_path.sh
+[74.307s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/environment/ament_prefix_path.dsv
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/environment/path.sh
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/environment/path.dsv
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/local_setup.bash
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/local_setup.sh
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/local_setup.zsh
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/local_setup.dsv
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/package.dsv
+[74.308s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages/rtabmap_slam
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/rclcpp_components/rtabmap_slam
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/rtabmap_slamExport-minsizerel.cmake
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/ament_cmake_export_targets-extras.cmake
+[74.309s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/ament_cmake_export_libraries-extras.cmake
+[74.310s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+[74.310s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake
+[74.310s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/package.xml
+[74.312s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_slam' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_slam

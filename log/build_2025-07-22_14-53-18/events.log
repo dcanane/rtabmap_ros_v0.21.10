@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000268] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000285] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000297] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000308] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.000333] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.000345] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.000356] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.000367] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.000378] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.000389] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.000399] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.000411] (rtabmap_sync) JobQueued: {'identifier': 'rtabmap_sync', 'dependencies': OrderedDict([('rtabmap_msgs', '/home/diogo/rtabmap_ros_ws/install'), ('rtabmap_conversions', '/home/diogo/rtabmap_ros_ws/install')])}
+[0.000534] (rtabmap_sync) JobStarted: {'identifier': 'rtabmap_sync'}
+[0.008926] (rtabmap_sync) JobEnded: {'identifier': 'rtabmap_sync', 'rc': 1}
+[0.009272] (-) EventReactorShutdown: {}

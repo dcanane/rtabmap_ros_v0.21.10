@@ -1,0 +1,1 @@
+/home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_msgs/msg/GlobalDescriptor.msg

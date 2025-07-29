@@ -1,0 +1,251 @@
+[0.008s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_util -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.171s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.249s] -- Found OpenCV: /usr (found version "4.5.4") found components: core calib3d imgproc highgui stitching photo video aruco objdetect missing components: xfeatures2d nonfree gpu cudafeatures2d
+[0.261s] -- Checking for module 'eigen3'
+[0.274s] --   Found eigen3, version 3.4.0
+[0.302s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.302s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.319s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.369s] -- Checking for module 'libusb-1.0'
+[0.379s] --   Found libusb-1.0, version 1.0.25
+[0.414s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.414s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[0.415s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.460s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[0.460s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.460s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.460s] [0m** WARNING ** io features related to png will be disabled[0m
+[0.485s] -- Looking for pthread.h
+[0.548s] -- Looking for pthread.h - found
+[0.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.610s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.611s] -- Found Threads: TRUE  
+[0.612s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.620s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.736s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.736s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.738s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.745s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.759s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.768s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.841s] -- Found X11: /usr/include   
+[0.841s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.906s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.906s] -- Looking for gethostbyname
+[0.966s] -- Looking for gethostbyname - found
+[0.966s] -- Looking for connect
+[1.025s] -- Looking for connect - found
+[1.025s] -- Looking for remove
+[1.087s] -- Looking for remove - found
+[1.087s] -- Looking for shmat
+[1.147s] -- Looking for shmat - found
+[1.147s] -- Looking for IceConnectionNumber in ICE
+[1.208s] -- Looking for IceConnectionNumber in ICE - found
+[1.274s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.275s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.277s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.278s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.290s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.294s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.297s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.301s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.327s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.342s] -- Checking for module 'flann'
+[1.354s] --   Found flann, version 1.9.1
+[1.391s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.392s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.395s] -- Found Qhull version 8.0.2
+[1.718s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.724s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.832s] -- looking for PCL_COMMON
+[1.833s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.833s] -- looking for PCL_OCTREE
+[1.833s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.834s] -- looking for PCL_IO
+[1.834s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.834s] -- looking for PCL_KDTREE
+[1.835s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.835s] -- looking for PCL_SEARCH
+[1.836s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.836s] -- looking for PCL_SURFACE
+[1.836s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.837s] -- looking for PCL_FILTERS
+[1.837s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.837s] -- looking for PCL_2D
+[1.837s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.837s] -- looking for PCL_FEATURES
+[1.838s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.838s] -- looking for PCL_REGISTRATION
+[1.839s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.839s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.840s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.840s] -- looking for PCL_GEOMETRY
+[1.840s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.840s] -- looking for PCL_ML
+[1.840s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.840s] -- looking for PCL_SEGMENTATION
+[1.841s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.841s] -- looking for PCL_VISUALIZATION
+[1.842s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.842s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_surface;pcl_filters;pcl_features;pcl_registration;pcl_sample_consensus;pcl_ml;pcl_segmentation;pcl_visualization;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.7") 
+[1.846s] -- RTABMap=rtabmap::utilite;rtabmap::core;rtabmap::gui
+[1.848s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.970s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.045s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.071s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.076s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.084s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.157s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[2.194s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.196s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.284s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.310s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.419s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.435s] -- Found stereo_msgs: 4.8.0 (/opt/ros/humble/share/stereo_msgs/cmake)
+[2.450s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.464s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.468s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.482s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.483s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.483s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.536s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[2.540s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.558s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.567s] -- Found rtabmap_msgs: 0.21.10 (/home/diogo/rtabmap_ros_ws/install/share/rtabmap_msgs/cmake)
+[2.585s] -- Found rtabmap_conversions: 0.21.10 (/home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake)
+[2.602s] -- Found octomap_msgs: 2.0.1 (/opt/ros/humble/share/octomap_msgs/cmake)
+[2.617s] -- Found grid_map_ros: 2.0.1 (/opt/ros/humble/share/grid_map_ros/cmake)
+[2.699s] -- WITH octomap_msgs
+[2.699s] -- WITH grid_map_ros
+[2.983s] -- Configuring done
+[3.525s] -- Generating done
+[3.599s] -- Build files have been written to: /home/diogo/rtabmap_ros_ws/build/rtabmap_util
+[3.625s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_util -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[3.627s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_util -- -j16 -l16
+[3.679s] [  7%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[3.679s] [  7%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[3.679s] [  7%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyzrgb.cpp.o[0m
+[3.679s] [ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/disparity_to_depth.cpp.o[0m
+[3.679s] [ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o[0m
+[3.679s] [ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o[0m
+[3.679s] [ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/pointcloud_to_depthimage.cpp.o[0m
+[3.679s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_aggregator.cpp.o[0m
+[3.679s] [ 23%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/map_assembler.cpp.o[0m
+[3.679s] [ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/imu_to_tf.cpp.o[0m
+[3.680s] [ 28%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/lidar_deskewing.cpp.o[0m
+[3.680s] [ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[3.680s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_split.cpp.o[0m
+[39.453s] [ 36%] [32m[1mLinking CXX shared library librtabmap_util_plugins.so[0m
+[41.228s] [ 36%] Built target rtabmap_util_plugins
+[41.254s] [ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_lidar_deskewing.dir/src/LidarDeskewingNode.cpp.o[0m
+[41.254s] [ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyz.dir/src/PointCloudXYZNode.cpp.o[0m
+[41.255s] [ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_split.dir/src/RGBDSplitNode.cpp.o[0m
+[41.255s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_map_assembler.dir/src/MapAssemblerNode.cpp.o[0m
+[41.255s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[41.255s] [ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_imu_to_tf.dir/src/ImuToTFNode.cpp.o[0m
+[41.256s] [ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[41.256s] [ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_disparity_to_depth.dir/src/DisparityToDepthNode.cpp.o[0m
+[41.256s] [ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/src/PointCloudXYZRGBNode.cpp.o[0m
+[41.258s] [ 63%] [32mBuilding CXX object CMakeFiles/rtabmap_obstacles_detection.dir/src/ObstaclesDetectionNode.cpp.o[0m
+[41.258s] [ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o[0m
+[41.258s] [ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_aggregator.dir/src/PointCloudAggregatorNode.cpp.o[0m
+[44.929s] [ 71%] [32m[1mLinking CXX executable rgbd_relay[0m
+[45.056s] [ 73%] [32m[1mLinking CXX executable disparity_to_depth[0m
+[45.827s] [ 76%] [32m[1mLinking CXX executable imu_to_tf[0m
+[46.087s] [ 78%] [32m[1mLinking CXX executable rgbd_split[0m
+[46.382s] [ 81%] [32m[1mLinking CXX executable point_cloud_aggregator[0m
+[46.642s] [ 84%] [32m[1mLinking CXX executable lidar_deskewing[0m
+[46.910s] [ 86%] [32m[1mLinking CXX executable pointcloud_to_depthimage[0m
+[50.000s] [ 86%] Built target rtabmap_imu_to_tf
+[50.163s] [ 86%] Built target rtabmap_rgbd_relay
+[50.340s] [ 86%] Built target rtabmap_disparity_to_depth
+[50.589s] [ 86%] Built target rtabmap_point_cloud_aggregator
+[50.819s] [ 89%] [32m[1mLinking CXX executable point_cloud_xyz[0m
+[51.108s] [ 89%] Built target rtabmap_rgbd_split
+[51.141s] [ 89%] Built target rtabmap_lidar_deskewing
+[51.213s] [ 89%] Built target rtabmap_pointcloud_to_depthimage
+[52.395s] [ 89%] Built target rtabmap_point_cloud_xyz
+[52.474s] [ 92%] [32m[1mLinking CXX executable point_cloud_xyzrgb[0m
+[53.900s] [ 92%] Built target rtabmap_point_cloud_xyzrgb
+[53.982s] [ 94%] [32m[1mLinking CXX executable point_cloud_assembler[0m
+[54.089s] [ 97%] [32m[1mLinking CXX executable map_assembler[0m
+[54.573s] [100%] [32m[1mLinking CXX executable obstacles_detection[0m
+[55.633s] [100%] Built target rtabmap_point_cloud_assembler
+[56.085s] [100%] Built target rtabmap_map_assembler
+[56.088s] [100%] Built target rtabmap_obstacles_detection
+[56.167s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_util -- -j16 -l16
+[56.205s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_util
+[56.212s] -- Install configuration: "MinSizeRel"
+[56.212s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/environment/library_path.sh
+[56.213s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/environment/library_path.dsv
+[56.213s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/transform_to_tf.py
+[56.213s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/yaml_to_camera_info.py
+[56.213s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/republish_tf_static.py
+[56.213s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/librtabmap_util_plugins.so
+[56.223s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/librtabmap_util_plugins.so" to ""
+[56.224s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/imu_to_tf
+[56.224s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/imu_to_tf" to ""
+[56.224s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/disparity_to_depth
+[56.224s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/disparity_to_depth" to ""
+[56.224s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/rgbd_relay
+[56.225s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/rgbd_relay" to ""
+[56.225s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/rgbd_split
+[56.225s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/rgbd_split" to ""
+[56.225s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/lidar_deskewing
+[56.225s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/lidar_deskewing" to ""
+[56.225s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_xyz
+[56.226s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_xyz" to ""
+[56.226s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_xyzrgb
+[56.226s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_xyzrgb" to ""
+[56.226s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/pointcloud_to_depthimage
+[56.226s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/pointcloud_to_depthimage" to ""
+[56.226s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/obstacles_detection
+[56.227s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/obstacles_detection" to ""
+[56.227s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_aggregator
+[56.227s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_aggregator" to ""
+[56.227s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_assembler
+[56.227s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/point_cloud_assembler" to ""
+[56.227s] -- Installing: /home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/map_assembler
+[56.228s] -- Set runtime path of "/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_util/map_assembler" to ""
+[56.228s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/include
+[56.228s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_util
+[56.228s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_util/visibility.h
+[56.229s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_util/ULogToRosout.h
+[56.229s] -- Installing: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_util/MapsManager.h
+[56.229s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/package_run_dependencies/rtabmap_util
+[56.230s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/parent_prefix_path/rtabmap_util
+[56.230s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/environment/ament_prefix_path.sh
+[56.230s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/environment/ament_prefix_path.dsv
+[56.230s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/environment/path.sh
+[56.230s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/environment/path.dsv
+[56.231s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/local_setup.bash
+[56.231s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/local_setup.sh
+[56.231s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/local_setup.zsh
+[56.231s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/local_setup.dsv
+[56.231s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/package.dsv
+[56.232s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages/rtabmap_util
+[56.232s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/rclcpp_components/rtabmap_util
+[56.232s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+[56.233s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/rtabmap_utilExport-minsizerel.cmake
+[56.233s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.233s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[56.233s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/ament_cmake_export_targets-extras.cmake
+[56.234s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/ament_cmake_export_libraries-extras.cmake
+[56.234s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/rtabmap_utilConfig.cmake
+[56.234s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/cmake/rtabmap_utilConfig-version.cmake
+[56.234s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/package.xml
+[56.245s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_util' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_util

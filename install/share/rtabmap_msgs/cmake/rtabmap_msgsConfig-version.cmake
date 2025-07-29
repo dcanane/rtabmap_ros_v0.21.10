@@ -1,0 +1,1 @@
+/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs/ament_cmake_core/rtabmap_msgsConfig-version.cmake

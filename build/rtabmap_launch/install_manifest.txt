@@ -1,0 +1,17 @@
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/launch/config/rgbd.rviz
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/launch/rtabmap.launch.py
+/home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/package_run_dependencies/rtabmap_launch
+/home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/parent_prefix_path/rtabmap_launch
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/environment/ament_prefix_path.sh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/environment/ament_prefix_path.dsv
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/environment/path.sh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/environment/path.dsv
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/local_setup.bash
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/local_setup.sh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/local_setup.zsh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/local_setup.dsv
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/package.dsv
+/home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages/rtabmap_launch
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/cmake/rtabmap_launchConfig.cmake
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/cmake/rtabmap_launchConfig-version.cmake
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/package.xml

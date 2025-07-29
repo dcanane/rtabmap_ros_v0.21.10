@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-b827be4e4363db1d65ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rtabmap_msgs__py",
+					"jsonFile" : "directory-rtabmap_msgs__py-MinSizeRel-e20955c5045106588a8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs/rtabmap_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rtabmap_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rtabmap_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rtabmap_msgs_egg-MinSizeRel-60d306b42f0c773267f8.json",
+					"name" : "ament_cmake_python_build_rtabmap_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_rtabmap_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_rtabmap_msgs-MinSizeRel-6edff289d1c98e75265e.json",
+					"name" : "ament_cmake_python_symlink_rtabmap_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs-MinSizeRel-87123332eeb8dd509c7c.json",
+					"name" : "rtabmap_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__cpp-MinSizeRel-3019b2f22310151b0b6f.json",
+					"name" : "rtabmap_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtabmap_msgs__py::@3574366cb3414d9fa8b3",
+					"jsonFile" : "target-rtabmap_msgs__py-MinSizeRel-9ef65254ac9c71238470.json",
+					"name" : "rtabmap_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_generator_c-MinSizeRel-7cccba2a198dc09e7111.json",
+					"name" : "rtabmap_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_generator_py-MinSizeRel-8fb107cd2e9ae84a7050.json",
+					"name" : "rtabmap_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_c-MinSizeRel-c27bd562a907de5bafcf.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_c__pyext-MinSizeRel-d33b92f3561547c9fa1f.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_cpp-MinSizeRel-31299923751afc9d2271.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_fastrtps_c-MinSizeRel-96e99004d3528aaa033a.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext-MinSizeRel-ff28e1e580f9ea4f4ac5.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_fastrtps_cpp-MinSizeRel-e8d0033efa5880ca4967.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_introspection_c-MinSizeRel-a7b4e7bbf010210619e6.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_introspection_c__pyext-MinSizeRel-a7b59fde5802593b5a82.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_introspection_cpp-MinSizeRel-ce36d6e7bd21bbb5acf3.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs_uninstall-MinSizeRel-c62d763a5a4409fbc9c0.json",
+					"name" : "rtabmap_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-MinSizeRel-22b7819c217c7b64e19c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs",
+		"source" : "/home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

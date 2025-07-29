@@ -1,0 +1,6 @@
+Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_msgs -- -j16 -l16
+Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_msgs -- -j16 -l16
+Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_msgs
+Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_msgs

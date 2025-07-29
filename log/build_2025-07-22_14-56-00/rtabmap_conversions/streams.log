@@ -1,0 +1,82 @@
+[0.007s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_conversions -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.116s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.202s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.203s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.224s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.225s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.349s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.378s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.409s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.636s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.641s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.757s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.763s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.768s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.876s] -- Found Qhull version 8.0.2
+[0.991s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.105s] -- Found rtabmap_msgs: 0.21.10 (/home/diogo/rtabmap_ros_ws/install/share/rtabmap_msgs/cmake)
+[1.123s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.179s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.183s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.186s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[1.186s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.186s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.186s]   command to set the policy and suppress this warning.
+[1.186s] 
+[1.186s]   CMake variable PCL_ROOT is set to:
+[1.186s] 
+[1.186s]     /usr
+[1.186s] 
+[1.186s]   For compatibility, CMake is ignoring the variable.
+[1.186s] Call Stack (most recent call first):
+[1.186s]   /opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)
+[1.186s]   CMakeLists.txt:22 (find_package)
+[1.187s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.187s] [0m
+[1.258s] -- Configuring done
+[1.293s] -- Generating done
+[1.302s] -- Build files have been written to: /home/diogo/rtabmap_ros_ws/build/rtabmap_conversions
+[1.321s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_conversions -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[1.322s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_conversions -- -j16 -l16
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_conversions[0m
+[1.388s] [100%] Built target rtabmap_conversions
+[1.400s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_conversions -- -j16 -l16
+[1.402s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_conversions
+[1.408s] -- Install configuration: "MinSizeRel"
+[1.409s] -- Execute custom install script
+[1.409s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/environment/library_path.sh
+[1.409s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/environment/library_path.dsv
+[1.409s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/package_run_dependencies/rtabmap_conversions
+[1.409s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/parent_prefix_path/rtabmap_conversions
+[1.409s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/environment/ament_prefix_path.sh
+[1.409s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/environment/ament_prefix_path.dsv
+[1.410s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/environment/path.sh
+[1.410s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/environment/path.dsv
+[1.410s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/local_setup.bash
+[1.410s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/local_setup.sh
+[1.410s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/local_setup.zsh
+[1.410s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/local_setup.dsv
+[1.410s] -- Symlinking: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/package.dsv
+[1.418s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages/rtabmap_conversions
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/ament_cmake_export_targets-extras.cmake
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/ament_cmake_export_libraries-extras.cmake
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig-version.cmake
+[1.419s] -- Up-to-date symlink: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/package.xml
+[1.419s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/lib/librtabmap_conversions.so
+[1.419s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/include
+[1.420s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_conversions
+[1.420s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/include/rtabmap_conversions/MsgConversion.h
+[1.420s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake
+[1.420s] -- Up-to-date: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-minsizerel.cmake
+[1.421s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_conversions

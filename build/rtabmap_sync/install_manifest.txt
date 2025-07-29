@@ -1,0 +1,9 @@
+/home/diogo/rtabmap_ros_ws/install/lib/librtabmap_sync.so
+/home/diogo/rtabmap_ros_ws/install/lib/librtabmap_sync_plugins.so
+/home/diogo/rtabmap_ros_ws/install/include/rtabmap_sync/visibility.h
+/home/diogo/rtabmap_ros_ws/install/include/rtabmap_sync/CommonDataSubscriberDefines.h
+/home/diogo/rtabmap_ros_ws/install/include/rtabmap_sync/SyncDiagnostic.h
+/home/diogo/rtabmap_ros_ws/install/include/rtabmap_sync/GetTopicName.h
+/home/diogo/rtabmap_ros_ws/install/include/rtabmap_sync/CommonDataSubscriber.h
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_sync/cmake/rtabmap_syncExport-minsizerel.cmake

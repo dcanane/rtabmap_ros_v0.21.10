@@ -1,0 +1,16 @@
+/home/diogo/rtabmap_ros_ws/install/lib/rtabmap_viz/rtabmap_viz
+/home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+/home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/environment/ament_prefix_path.sh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/environment/ament_prefix_path.dsv
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/environment/path.sh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/environment/path.dsv
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/local_setup.bash
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/local_setup.sh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/local_setup.zsh
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/local_setup.dsv
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/package.dsv
+/home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages/rtabmap_viz
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/package.xml

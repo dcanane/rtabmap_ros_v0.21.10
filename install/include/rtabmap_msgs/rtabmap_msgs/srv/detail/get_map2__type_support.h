@@ -1,0 +1,1 @@
+/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/get_map2__type_support.h

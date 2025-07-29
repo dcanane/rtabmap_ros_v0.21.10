@@ -1,0 +1,84 @@
+[0.019s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_demos': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages:/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_demos -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.250s] -- Detecting CXX compile features
+[0.250s] -- Detecting CXX compile features - done
+[0.253s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.487s] -- Configuring done
+[0.489s] -- Generating done
+[0.491s] -- Build files have been written to: /home/diogo/rtabmap_ros_ws/build/rtabmap_demos
+[0.496s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_demos' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages:/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_demos -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_CXX_FLAGS=-pipe -DCMAKE_INSTALL_PREFIX=/home/diogo/rtabmap_ros_ws/install
+[0.497s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_demos': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages:/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_demos -- -j16 -l16
+[0.534s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_demos' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages:/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/diogo/rtabmap_ros_ws/build/rtabmap_demos -- -j16 -l16
+[0.535s] Invoking command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_demos': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages:/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_demos
+[0.541s] -- Install configuration: "MinSizeRel"
+[0.541s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch
+[0.541s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/multisession_mapping_demo.launch.py
+[0.541s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot4
+[0.542s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot4/turtlebot4_slam.launch.py
+[0.542s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot4/turtlebot4_sim_demo.launch.py
+[0.542s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/isaac
+[0.542s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/isaac/isaac_vslam.launch.py
+[0.542s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/isaac/isaac_sim_vslam_demo.launch.py
+[0.543s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/stereo_outdoor_demo.launch.py
+[0.543s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/robot_mapping_demo.launch.py
+[0.543s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3
+[0.543s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd.launch.py
+[0.544s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_scan_demo.launch.py
+[0.544s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd_scan.launch.py
+[0.544s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_demo.launch.py
+[0.544s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_scan_demo.launch.py
+[0.544s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/turtlebot3/turtlebot3_scan.launch.py
+[0.544s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/find_object_demo.launch.py
+[0.545s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/champ
+[0.545s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/champ/champ_sim_vslam.launch.py
+[0.545s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/champ/champ_vslam.launch.py
+[0.545s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky
+[0.545s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky/husky_sim_scan2d_demo.launch.py
+[0.546s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky/husky_slam3d.launch.py
+[0.546s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky/husky_slam2d.launch.py
+[0.546s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky/husky_sim_scan3d_assemble_demo.launch.py
+[0.546s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky/husky_sim_scan3d_demo.launch.py
+[0.546s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/launch/husky/husky_slam3d_assemble.launch.py
+[0.547s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/config
+[0.547s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/config/find_object.ini
+[0.547s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/config/demo_robot_mapping.rviz
+[0.547s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params
+[0.547s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params/turtlebot3_scan_nav2_params.yaml
+[0.548s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params/isaac_vslam_nav2_params.yaml
+[0.548s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params/isaac_nav2_params.yaml
+[0.548s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params/champ_nav2_params.yaml
+[0.548s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params/turtlebot3_rgbd_scan_nav2_params.yaml
+[0.549s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/params/turtlebot3_rgbd_nav2_params.yaml
+[0.549s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data
+[0.549s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data/books
+[0.549s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data/books/4.png
+[0.550s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data/books/8.png
+[0.550s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data/books/6.png
+[0.550s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data/books/7.png
+[0.551s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/data/books/5.png
+[0.551s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/package_run_dependencies/rtabmap_demos
+[0.551s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/parent_prefix_path/rtabmap_demos
+[0.551s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/environment/ament_prefix_path.sh
+[0.551s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/environment/ament_prefix_path.dsv
+[0.552s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/environment/path.sh
+[0.552s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/environment/path.dsv
+[0.552s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/local_setup.bash
+[0.552s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/local_setup.sh
+[0.552s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/local_setup.zsh
+[0.552s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/local_setup.dsv
+[0.553s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/package.dsv
+[0.553s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages/rtabmap_demos
+[0.553s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake
+[0.553s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake
+[0.553s] -- Installing: /home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/package.xml
+[0.556s] Invoked command in '/home/diogo/rtabmap_ros_ws/build/rtabmap_demos' returned '0': AMENT_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diogo/rtabmap_ros_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/diogo/rtabmap_ros_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages:/home/diogo/rtabmap_ros_ws/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/diogo/rtabmap_ros_ws/build/rtabmap_demos

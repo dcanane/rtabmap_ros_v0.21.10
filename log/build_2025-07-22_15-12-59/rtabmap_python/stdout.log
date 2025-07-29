@@ -1,0 +1,31 @@
+running egg_info
+creating ../../../build/rtabmap_python/rtabmap_python.egg-info
+writing ../../../build/rtabmap_python/rtabmap_python.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rtabmap_python/rtabmap_python.egg-info/dependency_links.txt
+writing entry points to ../../../build/rtabmap_python/rtabmap_python.egg-info/entry_points.txt
+writing requirements to ../../../build/rtabmap_python/rtabmap_python.egg-info/requires.txt
+writing top-level names to ../../../build/rtabmap_python/rtabmap_python.egg-info/top_level.txt
+writing manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+reading manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build
+creating /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build/lib
+creating /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build/lib/rtabmap_python
+copying rtabmap_python/__init__.py -> /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build/lib/rtabmap_python
+copying rtabmap_python/compression.py -> /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build/lib/rtabmap_python
+running install
+running install_lib
+creating /home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages/rtabmap_python
+copying /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build/lib/rtabmap_python/__init__.py -> /home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages/rtabmap_python
+copying /home/diogo/rtabmap_ros_ws/build/rtabmap_python/build/lib/rtabmap_python/compression.py -> /home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages/rtabmap_python
+byte-compiling /home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages/rtabmap_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages/rtabmap_python/compression.py to compression.cpython-310.pyc
+running install_data
+copying resource/rtabmap_python -> /home/diogo/rtabmap_ros_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/diogo/rtabmap_ros_ws/install/share/rtabmap_python
+running install_egg_info
+Copying ../../../build/rtabmap_python/rtabmap_python.egg-info to /home/diogo/rtabmap_ros_ws/install/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/diogo/rtabmap_ros_ws/build/rtabmap_python/install.log'

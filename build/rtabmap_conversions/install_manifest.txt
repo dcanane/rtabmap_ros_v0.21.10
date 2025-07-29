@@ -1,0 +1,4 @@
+/home/diogo/rtabmap_ros_ws/install/lib/librtabmap_conversions.so
+/home/diogo/rtabmap_ros_ws/install/include/rtabmap_conversions/MsgConversion.h
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake
+/home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-minsizerel.cmake

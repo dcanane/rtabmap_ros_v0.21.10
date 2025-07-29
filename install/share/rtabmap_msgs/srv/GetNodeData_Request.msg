@@ -1,0 +1,1 @@
+/home/diogo/rtabmap_ros_ws/build/rtabmap_msgs/rosidl_cmake/srv/GetNodeData_Request.msg

@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_msgs/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_python/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_conversions/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_rviz_plugins/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_sync/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_util/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_odom/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_slam/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_viz/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_demos/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_examples/package.sh"
+. "/home/diogo/rtabmap_ros_ws/install/share/rtabmap_launch/package.sh"

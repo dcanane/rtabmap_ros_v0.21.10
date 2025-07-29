@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-77d41a4559c25c832c8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_conversions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_conversions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_conversions-MinSizeRel-72dd3bffe8ddce1286af.json",
+					"name" : "rtabmap_conversions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_conversions_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_conversions_uninstall-MinSizeRel-0d0b15dc94378f1d3d0c.json",
+					"name" : "rtabmap_conversions_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-MinSizeRel-1a0bbd375951cb2c5c04.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/diogo/rtabmap_ros_ws/build/rtabmap_conversions",
+		"source" : "/home/diogo/rtabmap_ros_ws/src/rtabmap_ros/rtabmap_conversions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
